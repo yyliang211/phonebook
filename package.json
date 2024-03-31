@@ -1,0 +1,19 @@
+{
+  "name": "phonebook_server",
+  "version": "1.0.0",
+  "description": "phonebook server for fullstack open part 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Yingyang Liang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
