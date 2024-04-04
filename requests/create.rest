@@ -11,6 +11,15 @@ POST http://localhost:3001/api/persons/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "tty12",
+    "name": "replacement",
     "number": "456"
+}
+
+###
+PUT http://localhost:3001/api/persons/660e0518d8d3c33198a44c0c
+content-type: application/json
+
+{
+    "name": "replacement",
+    "number": "777"
 }
